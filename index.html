@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- font-css -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Create Your Account</h1>
+        <p>Please fill the form to sign up</p>
+    </header>
+
+    <!-- Main Section -->
+    <main class="container">
+        <h1 class="title">Signup</h1>
+        <form action="#" method="post" class="signup-form">
+            <input type="text" class="form-control-input" id="username" name="username" required
+                placeholder="Full name">
+
+            <input type="email" id="email" class="form-control-input" name="email" required placeholder="Email">
+
+            <input type="password" id="password" class="form-control-input" name="password" required
+                placeholder="Password">
+
+            <input type="text" id="confirm-password" class="form-control-input" name="confirm-password" required
+                placeholder="Confirm Password">
+
+            <input type="date" id="dob" class="form-control-input" name="dob" required placeholder="Date of Birth">
+
+            <div class="radio">
+                <input type="radio" name="work" id="Student" value="Student" required="">
+                <label for="Student">Student</label>
+
+                <input type="radio" name="work" id="Employee" value="Employee" required="">
+                <label for="Employee">Employee</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="check" required="">
+
+                <label for="check">I agree to all the Terms and conditions</label>
+            </div>
+            <button class="btnsubmit" type="submit">Signup</button>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2026 Signup Form Project</p>
+    </footer>
+
+</body>
+
+</html>
